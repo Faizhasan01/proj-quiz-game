@@ -5,6 +5,7 @@ import Categories from '@/components/Home/Categories'
 import { useEffect } from 'react'
 
 // this is a commit gui comment
+// this terminal commit
 export default function Main () {
 	useEffect(() => { window.onbeforeunload = () => null }, [])
 
