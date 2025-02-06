@@ -4,6 +4,7 @@ import GameModes from '@/components/Home/GameModes'
 import Categories from '@/components/Home/Categories'
 import { useEffect } from 'react'
 
+// this is a commit gui comment
 export default function Main () {
 	useEffect(() => { window.onbeforeunload = () => null }, [])
 
